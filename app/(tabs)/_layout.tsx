@@ -89,6 +89,13 @@ export default function HomeLayout() {
       <Tabs.Screen name="forum" />
       <Tabs.Screen name="journaling" />
       <Tabs.Screen name="profile" />
+      <Tabs.Screen
+        name="create-post"
+        options={{
+          headerShown: false,
+          href: null,
+        }}
+      />
     </Tabs>
   );
 }

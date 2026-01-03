@@ -18,7 +18,9 @@ export default function RootLayout() {
         >
           <Stack.Screen name="(auth)/login/index" />
           <Stack.Screen name="(auth)/register/index" />
-          <Stack.Screen name="(tabs)/index" />
+          <Stack.Screen name="(tabs)" />
+          <Stack.Screen name="posts/[postId]" />
+          <Stack.Screen name="chat" />
         </Stack>
         <View className="mb-4">
           <Toaster position="bottom-center" />
