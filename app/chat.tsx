@@ -222,7 +222,7 @@ export default function ChatScreen() {
         {
           method: "POST",
           headers: {
-            Authorization: "INSERT THE API KEY HERE",
+            Authorization: "YOUR API HERE",
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
